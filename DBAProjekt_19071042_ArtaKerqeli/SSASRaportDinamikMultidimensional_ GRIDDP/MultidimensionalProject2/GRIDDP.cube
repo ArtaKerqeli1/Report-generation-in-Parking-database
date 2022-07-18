@@ -1,0 +1,235 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="11b3ea7e-9e43-4bf5-98aa-3d78f6a58b7d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GRIDDP</ID>
+  <Name>GRIDDP</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="f71ce7e5-fc86-4625-b25d-95a197cae191">
+      <ID>Qmimi</ID>
+      <Name>Qmimi</Name>
+      <DimensionID>Qmimi</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="20c7b624-354d-41d3-ab6f-425127605b08">
+          <AttributeID>ID Qmimi</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f688937a-57c9-4d4f-a5e3-76136cd73b76">
+      <ID>Qmimi 1</ID>
+      <Name>Qmimi 1</Name>
+      <DimensionID>Qmimi 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a40c6c8a-28a1-4803-b02a-cfdcbb63f569">
+          <AttributeID>ID Qmimi</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="653776c7-6fb5-4daf-a0ab-5210e92da236">
+      <ID>griddp_Parkingi</ID>
+      <Name>griddp_Parkingi</Name>
+      <DimensionID>Griddp Parkingi</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="727f1efb-bc86-4b9f-be74-e3875b534c4b">
+          <AttributeID>ID Parkingi</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9184c2d3-b1ed-46a1-9c3e-8408bde795f4">
+          <AttributeID>Qyteti</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0f77fd9d-19bb-4d47-83c3-161d3346e291">
+          <AttributeID>Adresa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7120bda7-81ed-4330-aa06-651166f96037">
+          <AttributeID>Vetura</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7c80dd1d-b3ca-4ee9-b33e-e5ac45408616">
+          <AttributeID>ID Qmimi</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="523946db-f858-4967-9dd1-46987bcbdd76">
+      <ID>Qmimi</ID>
+      <Name>Qmimi</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="0b26fec0-b65e-4717-ab35-6b049cd76003">
+          <ID>Cmimi</ID>
+          <Name>Cmimi</Name>
+          <Source dwd:design-time-name="c988bda2-b152-4376-a887-4e72b2a14e68">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5720de04-ada0-4b77-8314-36b030232939">
+              <TableID>dbo_Qmimi</TableID>
+              <ColumnID>cmimi</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cd6d9bef-3016-4f3b-b681-edb580038cb9">
+          <ID>Qmimi Count</ID>
+          <Name>Qmimi Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="3d10ecbd-5d1e-455f-b08c-405b1b6bfadd">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="192ac4d3-7b47-4cc0-86bc-ed36a300b141">
+              <TableID>dbo_Qmimi</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="e4cf4bb7-b64f-47cd-91d4-6d7986497d80">
+          <CubeDimensionID>Qmimi</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="05889115-2c2f-4288-aecb-825ba3ca92e9">
+              <AttributeID>ID Qmimi</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3fd1c5c7-8219-4971-bf15-b8b86d3d832b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d957365f-abd7-498f-8b4c-12aca5aa7c65">
+                    <TableID>dbo_Qmimi</TableID>
+                    <ColumnID>ID_qmimi</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="49a1a659-dff3-446b-ae1e-815ea6559bc5">
+          <CubeDimensionID>Qmimi 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ed2b2623-a31d-44c2-b91a-6d7f613317a4">
+              <AttributeID>ID Qmimi</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2e759c72-d114-4cd7-855f-7dd07111a98f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f0946541-23d2-411e-a3aa-ade13b9095e0">
+                    <TableID>dbo_Qmimi</TableID>
+                    <ColumnID>ID_qmimi</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="74c80819-a3db-4a67-9715-4521ac1f5420">
+          <CubeDimensionID>griddp_Parkingi</CubeDimensionID>
+          <MeasureGroupID>Griddp Parkingi</MeasureGroupID>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="251c193b-8645-4a24-b453-030838a86492">
+      <ID>Griddp Parkingi</ID>
+      <Name>Griddp Parkingi</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="afb064be-9d96-4d0c-9b9e-3f1c29f98756">
+          <ID>Griddp Parkingi Count</ID>
+          <Name>Griddp Parkingi Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="d8b9e636-1f3c-4d31-9f66-0144d1a08651">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="f5917ee2-8192-450a-ac67-da938fe8df9c">
+              <TableID>dbo_griddp_Parkingi</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="b21027e5-86cf-4846-bb2b-21c9013ca0d2">
+          <CubeDimensionID>griddp_Parkingi</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e8905a65-7072-4c9d-b224-9c01a6d23f71">
+              <AttributeID>ID Parkingi</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3dd2e4d4-b6ad-4464-b6b6-85acfab3ce7f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bb5051f2-0033-4483-a9cc-81523407e75f">
+                    <TableID>dbo_griddp_Parkingi</TableID>
+                    <ColumnID>ID_parkingi</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9057538c-2caf-4990-8bbf-641a94168bf8">
+          <CubeDimensionID>Qmimi</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="94e8c2fe-7642-4d67-9a02-a778fbe5512b">
+              <AttributeID>ID Qmimi</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b1ef6c8d-3485-4842-87b6-23d80dd678f6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f45b39ae-3c73-4409-b5db-08814a365998">
+                    <TableID>dbo_griddp_Parkingi</TableID>
+                    <ColumnID>ID_qmimi</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="651257b6-6779-4015-9e1f-6a0d55ae4e0b">
+    <DataSourceViewID>GRIDDP</DataSourceViewID>
+  </Source>
+</Cube>

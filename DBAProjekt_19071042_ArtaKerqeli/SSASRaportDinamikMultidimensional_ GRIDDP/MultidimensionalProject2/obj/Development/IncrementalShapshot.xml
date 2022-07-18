@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MultidimensionalProject2</Database>
+    <Server>DESKTOP-JMUATTB\SMSSQLSERVER</Server>
+    <ConnectionString>Data Source=DESKTOP-JMUATTB\SMSSQLSERVER;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>true</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Full</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Elj/XR2mXjtVmlKvPaAfYArh7Fg=1/24/2022 10:53:57 PM1/28/2022 3:28:04 PM</TimeStamp>
+        <ID>
+          <String>GRIDDP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>nvcD9rYXiTleeJnOxb8btcMnmdg=1/24/2022 10:32:34 PM1/28/2022 3:28:04 PM</TimeStamp>
+        <ID>
+          <String>GRIDDP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sqVH6BEyToQRrbXtM8ys8MTLC7E=1/24/2022 10:32:34 PM1/28/2022 3:28:04 PM</TimeStamp>
+        <ID>
+          <String>Qmimi</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>osLAuln66crKOzKvq0aAiug+HbI=1/24/2022 10:40:19 PM1/28/2022 3:28:04 PM</TimeStamp>
+        <ID>
+          <String>Griddp Parkingi</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DmOd007eU6Y63AwKVBXGgayb7vo=1/24/2022 10:56:46 PM1/28/2022 3:28:04 PM</TimeStamp>
+        <ID>
+          <String>Qmimi 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>cMv4fb2Wos28KgPE/M45/+QYlgE=1/28/2022 11:35:41 PM1/28/2022 3:28:04 PM79/TTF4dLjJBMm714DSeozll0co=1/24/2022 10:56:46 PM1/28/2022 3:28:04 PM</TimeStamp>
+        <ID>
+          <String>GRIDDP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>Gdq0sMiIHr981w7NTD1o/Ayxonc=1/24/2022 10:34:18 PM1/28/2022 3:28:04 PM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>vEoh0vxhZlIX5Bes6C5wvk7iVkw=1/24/2022 10:34:18 PM1/28/2022 3:28:04 PM</TimeStamp>
+      <ID>
+        <String>MultidimensionalProject2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-01-28T23:11:47.67Z</LastDeployed>
+</DeploymentSnapshot>
